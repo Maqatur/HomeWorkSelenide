@@ -21,7 +21,7 @@ class AppCardDeliveryTest {
 
     @Test
 
-    void HappyPathTest(){
+    void happyPathTest(){
 
         open("http://localhost:9999/");
         $("[data-test-id='city'] input").setValue("Самара");
